@@ -26,6 +26,7 @@ import speaker4 from "./media/speaker4.jpeg";
 import speaker5 from "./media/speaker5.jpeg";
 import speaker6 from "./media/speaker6.jpeg";
 import linkedin from "./media/linkedin.png";
+import pp from "./media/pp.png";
 import books from "./media/books.png";
 import sarah from "./media/Sarah.jpg";
 import amanda from "./media/Amanda.jpg";
@@ -46,26 +47,9 @@ const About = () => {
 
   const shortContent = (
     <>
-      The African Digital Economy Summit is an impactful and forward-thinking
-      conference designed to expedite the realization of Africa’s digital
-      economy aspirations. The summit serves as a dynamic platform where key
-      stakeholders, thought leaders, innovators, policymakers, and industry
-      experts converge to foster collaboration, share insights, and device
-      strategic solutions for advancing Africa’s digital landscape.
+     The Digital Excellence and Emerging Technology Summit 2024 is a prestigious event that brings together global thought leaders to explore cutting-edge advancements in digital technologies. The summit will focus on the transformative impact these technologies have on society, business, and governance, with an emphasis on fostering sustainable development and economic growth.
       <br />
-      <br /> The Group of 20 Industrialized Nations (G20) will convene their
-      annual summit in November 2024. The central theme of this summit is
-      "Building a Just World and a Sustainable Planet." Recognizing the
-      significant impact of inclusive digital transformation on national and
-      sub-national economies as catalysts for economic growth, the G20 is
-      fostering synergies with critical stakeholders worldwide to advance and
-      enhance inclusive digital transformation. <br />
-      <br />
-      In alignment with this objective, the T20 has approved the convening of
-      the Africa Digital Economy Summit as a strategic component of its general
-      assembly. This event is scheduled to take place in Sao Paulo, Brazil, from
-      October 21st to 24th, 2024.
-    </>
+      </>
   );
   const fullContent = (
     <>
@@ -115,57 +99,57 @@ const About = () => {
 
   const speakers = [
     {
-      name: "Dr. Christopher Brooks",
-      title: "Founding Partner; Brown Venture Group",
-      image: speaker3,
-      linkedin:
-        "https://www.linkedin.com/in/drchrisbrooks?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // name: "Dr. Christopher Brooks",
+      // title: "Founding Partner; Brown Venture Group",
+      image: pp,
+      // linkedin:
+      //   "https://www.linkedin.com/in/drchrisbrooks?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-      name: "Sarah Fernn",
-      title: "CEO at Stardust, Sao Paulo, Brasil",
-      image: sarah,
-      linkedin: "https://www.linkedin.com/in/sarahfernn/",
+      // name: "Sarah Fernn",
+      // title: "CEO at Stardust, Sao Paulo, Brasil",
+      image: pp,
+      // linkedin: "https://www.linkedin.com/in/sarahfernn/",
     },
     {
-      name: "Prof. Kelly Kingsly Mua",
-      title: "Finance Engineer | Board Director at ATIDI",
-      image: speaker2,
-      linkedin:
-        "https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // name: "Prof. Kelly Kingsly Mua",
+      // title: "Finance Engineer | Board Director at ATIDI",
+      image: pp,
+      // linkedin:
+      //   "https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-      name: "Armand Gaetan Ngueti",
-      title:
-        "Founder & CEO at Universal Broadband & Technology Services - International Corp (UBTS)",
-      image: speaker4,
-      linkedin: "https://www.linkedin.com/in/armandngueti/",
+      // name: "Armand Gaetan Ngueti",
+      // title:
+      //   "Founder & CEO at Universal Broadband & Technology Services - International Corp (UBTS)",
+      image: pp,
+      // linkedin: "https://www.linkedin.com/in/armandngueti/",
     },
     {
-      name: "Adetunji Anthony Adeleke",
-      title: "Co-Founder at CHIMENET, Indianapolis, Indiana, USA",
-      image: speaker1,
-      linkedin:
-        "https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // name: "Adetunji Anthony Adeleke",
+      // title: "Co-Founder at CHIMENET, Indianapolis, Indiana, USA",
+      image: pp,
+      // linkedin:
+      //   "https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-      name: "Dr Salisu Uba",
-      title: "FCIPS - Founder and CEO NatQuest",
-      image: speaker5,
-      linkedin:
-        "https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // name: "Dr Salisu Uba",
+      // title: "FCIPS - Founder and CEO NatQuest",
+      image: pp,
+      // linkedin:
+      //   "https://www.linkedin.com/in/adetunji-anthony-adeleke-13567312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-      name: "Amanda Awange",
-      title: "AI Product Manager : Factset LTD, London, England.",
-      image: amanda,
-      linkedin: "https://www.linkedin.com/in/amanda-awange-21b090184/",
+      // name: "Amanda Awange",
+      // title: "AI Product Manager : Factset LTD, London, England.",
+      image: pp,
+      // linkedin: "https://www.linkedin.com/in/amanda-awange-21b090184/",
     },
     {
-      name: "Radek Wierzbicki",
-      title: "Managing Director - Unsung Heroes Foundation, Warsaw Poland",
-      image: speaker6,
-      linkedin: "https://www.linkedin.com/in/radwierz/",
+      // name: "Radek Wierzbicki",
+      // title: "Managing Director - Unsung Heroes Foundation, Warsaw Poland",
+      image: pp,
+      // linkedin: "https://www.linkedin.com/in/radwierz/",
     },
   ];
   const handleSeeMore = () => {
@@ -209,6 +193,16 @@ const About = () => {
               </h1>
             </a>
           </div>
+        </div>
+      </div>
+      <div className="flex w-[80%] text-center flex-col lg:flex-row mt-8">
+        <div className="lg:ml-8 lg:pt-4 xl:pt-4">
+          <h1 className="text-4xl lg:text-4xl xl:text-6xl font-bold text-[#35bc3d] my-4">
+          Sequel Virtual Event Section
+          </h1>
+          <h2 className="text-lg lg:text-lg xl:text-xl font-light text-[#7b7b7b] mt-">
+          Following the in-person summit, a sequel virtual event will focus on "The Digital Economy in Africa." This session will bring the conversation to a global audience, exploring Africa's digital transformation and its potential to drive inclusive growth and development.
+          </h2>
         </div>
       </div>
       <div className="w-full flex md:flex-row flex-col bg-[#35bc3d] mt-12 p-4 sm:p-8 sm:px-12">
@@ -323,31 +317,6 @@ const About = () => {
               </h1>
               <h2 className="text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2">
                 Co-Chair AfriDES/Co-founder Hub For Digital Excellence
-              </h2>
-            </div>
-          </div>
-          <div className="flex flex-col items-center w-full lg:w-[240px] xl:w-[300px] my-8">
-            <div
-              className="flex h-40 w-40 sm:h-40 sm:w-40 lg:h-44 lg:w-44 xl:h-64 xl:w-64 bg-black rounded-full relative"
-              target="blank"
-            >
-              <a href="https://www.linkedin.com/in/kelvinjiraji?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                <div className="absolute lg:top-3 lg:right-3 xl:top-4 xl:right-4 bg-[#005720] h-12 w-12 rounded-full hover:scale-110 duration-200 flex justify-center items-center">
-                  <img className="h-[50%]" src={linkedin}></img>
-                </div>
-              </a>
-              <img
-                className="h-full rounded-full"
-                src={host2}
-                alt="Host 2"
-              ></img>
-            </div>
-            <div className="w-[60%] sm:w-full pl-4 sm:pl-0">
-              <h1 className="text-center  md:text-xl lg:text-2xl xl:text-4xl font-semibold text-[#005720]  mt-4 lg:mt-8 w-full">
-                Kelvin Tersoo Jiraji
-              </h1>
-              <h2 className="text-center text-[#35bc3d] font-light text-md lg:text-xl mt-2">
-                CEO Hub For Digital Excellence
               </h2>
             </div>
           </div>

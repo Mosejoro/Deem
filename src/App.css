@@ -41,6 +41,9 @@ html {
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
+.bg{
+  background-color: whitesmoke;
+}
 
 .navbar-links > h1:hover::after,
 .navbar-links > h1:focus::after {

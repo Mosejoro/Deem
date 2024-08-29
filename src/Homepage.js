@@ -27,7 +27,7 @@ const Homepage = () => {
       <Navbar />
       <Landing scrollToTickets={scrollToTickets} />
       <About />
-      <Dealroom />
+      {/* <Dealroom /> */}
       <Pat />
       <Countdown />
       <div ref={ticketsRef}>

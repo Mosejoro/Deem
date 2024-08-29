@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "./media/logo.png";
 import g20 from "./media/g20.png";
-import t20 from "./media/t20.png";
+import loogo from "./media/Logo copy.png";
 import menuIcon from "./media/menu.png"; // Placeholder for menu icon
 import closeIcon from "./media/close.png"; // Placeholder for close icon
 import { Link } from "react-router-dom";
@@ -14,11 +14,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="p-4 py-8 bg-[#95d5b2] w-screen h-24 flex justify-between lg:pr-8 sm:pr-8 md:p-2 items-center navbar top-0 z-20 pl-0">
-      <div className="w-[500px] h-[55px] sm:h-[100px] md:h-[60%] lg:h-[70%] xl:h-full flex flex-row md:flex-row items-center">
-        <img className="h-full mb-6 mr-2" src={g20} alt="Logo" />
-        <img className="h-[50%] mt-2s mr-2" src={t20} alt="Logo" />
-        <img className="h-[40%]" src={logo} alt="Logo" />
+    <div className="p-4 bg py-8 bg-[#95d5b2] w-screen h-24 flex justify-between lg:pr-8 sm:pr-8 md:p-2 items-center navbar top-0 z-20 pl-0">
+      <div className="w-[500px] h-[55px] sm:h-[100px] md:h-[60%] lg:h-[70%]  xl:h-full flex flex-row md:flex-row items-center">
+        <img className="h-full mb-6 mr-2" src={loogo} alt="Logo" />
+       
       </div>
       <div className="hidden md:flex navbar-links items-end Z lg:space-x-4">
         <h1>Speakers</h1>
